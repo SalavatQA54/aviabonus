@@ -3,7 +3,8 @@ public class Main {
         int ticketPrice = 20_000;
         int costOneMile = 20;
         int bonusMiles = ticketPrice / costOneMile;
-        System.out.println(bonusMiles);
+        System.out.println("Купив билет стоимостью " + ticketPrice + "р.");
+        System.out.println("Вы получите " + bonusMiles + " бонусных миль.");
 
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
